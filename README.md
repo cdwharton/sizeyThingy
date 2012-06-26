@@ -9,8 +9,8 @@ Then this file (jquery.sizeythingy.js)
 
 in your HTML e.g.
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> 
-<script src="assets/js/plugins/jquery.sizeythingy.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> 
+    <script src="assets/js/plugins/jquery.sizeythingy.js"></script> 
 
 Then in your usual document.ready...
 
