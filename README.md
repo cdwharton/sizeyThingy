@@ -16,7 +16,9 @@ Then in your usual document.ready...
 
 
 jQuery(document).ready(function() {
+
     jQuery.sizeyThingy(); 
+    
 )};
 
 There are only 3 options...
