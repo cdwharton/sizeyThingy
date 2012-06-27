@@ -24,13 +24,13 @@ Then in your usual document.ready...
 There are only 4 options...
 
 sizeyThingyMessage: "W: "
-This is just for the start of the information bar.
+- This is just for the start of the information bar.
 
 sizeyThingyRelative: false
-This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
+- This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
 
 sizeyForMobileRelative: true
-If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
+- If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
 
 sizeyThingyLight: true - Would you like a white bar with black text or a black bar with white text, true for white bar, false for black bar
 
