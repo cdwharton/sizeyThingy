@@ -32,7 +32,7 @@ sizeyThingyMessage: "W: " - This is just for the start of the information bar.
 sizeyThingyRelative: false -This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
 
 sizeyForMobileRelative: true - If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
-=======
+
 messageWidth: "W: "
 - This is just for the start of the information bar.
 
@@ -41,7 +41,6 @@ relativePosition: false
 
 mobileRelative: true
 - If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
->>>>>>> General updates and demo URL added
 
 dark: true - Would you like a white bar with dark text or a dark bar with white text, false for white bar, true for dark bar
 
