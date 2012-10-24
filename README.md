@@ -23,9 +23,10 @@ Then in your usual document.ready...
     
     });
 
-There are only 4 options...
+There are only 5 options...
 
-<<<<<<< HEAD
+message: "Browser width..." - This preceeds measurement message
+
 sizeyThingyMessage: "W: " - This is just for the start of the information bar.
 
 sizeyThingyRelative: false -This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
