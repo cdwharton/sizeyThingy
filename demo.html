@@ -10,8 +10,13 @@
 <![endif]-->
 
 <style>
-	body { margin:0;padding:5em;font: 15px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; color: #252525; }
-	h1 { font-size: 34px; font-weight: bold; margin: 1em 0; }
+	body { margin:0;padding:0;font: 15px/1.1 Helvetica, Arial, Geneva, sans-serif; color: #bbb; }
+	h1 { font-size: 44px; font-weight: 700; margin: 1em 0 0 0; letter-spacing: -1px; color: #333; }
+	h2 { font-size: 20px; font-weight: 400; margin: 1em 0; color: #bbb; }
+	div.wrapper { padding: 2em 5%; }
+	p.credit { margin-top: 8em; font-size: 13px; }
+	a { color: #BB411B; -o-transition: color 0.25s ease-in; -webkit-transition: color 0.25s ease-in; -moz-transition: color 0.25s ease-in; transition: color 0.25s ease-in; }
+	a:hover { color: #333; -o-transition: color 0.25s ease-in; -webkit-transition: color 0.25s ease-in; -moz-transition: color 0.25s ease-in; transition: color 0.25s ease-in; }
 </style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
@@ -21,42 +26,21 @@
 
 
 <body>
-	<h1>jQuery sizeyThingy Demo</h1>
-	<p>Ever got confused on browser width?... Not any more! Use sizeyThingy!</p>
-	<p>Just include the jQuery library (<a href="http://jquery.com" title="Get jQuery">http://jquery.com</a>)</p>
-	<p>Then this file (jquery.sizeythingy.js)</p>
-	<p>in your HTML e.g.</p>
-	<p>
-	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"&gt;&lt;/script&gt; <br />
-	&lt;script src="assets/js/plugins/jquery.sizeythingy.js"&gt;&lt;/script&gt; 
-	</p>
-	<p>Then in your usual document.ready...</p>
-	<p>jQuery(document).ready(function() {<br />
+	<div class="wrapper">
+		<h1>sizeyThingy</h1>
+		<h2>You can get the jQuery plugin and use it on your website here...</h2>
+		<p><a href="https://github.com/weare2ndfloor/sizeyThingy" title="View sizeyThingy on Github">Github</a> | <a href="https://github.com/weare2ndfloor/sizeyThingy/zipball/master" title="Download zip">Download zip</a></p>
+		<p class="credit">Something vaguely helpful by <a href="http://weare2ndfloor.com">2nd Floor</a></p>
 	
-	jQuery.sizeyThingy(); <br />
+	</div>		
 	
-	});<br />
-	</p>
-	<p>There are only 4 options...<br /><br />
-	
-	<strong>sizeyThingyMessage: "W: "</strong> - This is just for the start of the information bar.<br />
-	
-	<strong>sizeyThingyRelative: false</strong> - This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".<br />
-	
-	<strong>sizeyForMobileRelative: true</strong> - If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.<br />
-	
-	<strong>sizeyThingyLight: true</strong> - Would you like a white bar with black text or a black bar with white text, true for white bar, false for black bar<br />
-	
-	<p>That's it - happy responsive designing, resize your browser to see the value updating :)</p>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> 
+		<script src="jquery.sizeythingy.js"></script>
+		<script> 
+			jQuery(window).load(function() {
+				jQuery.sizeyThingy(); 
+			});
+		</script>
 
-
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> 
-	<script src="jquery.sizeythingy.js"></script>
-	<script> 
-		jQuery(document).ready(function() {
-		jQuery.sizeyThingy({sizeyThingyLight:false}); 
-		});
-	</script>
 </body>
 </html>
