@@ -1,6 +1,8 @@
 sizeyThingy
 ===========
 
+Demo: http://weare2ndfloor.com/sizeythingy/
+
 Just a quick way of seeing what size your browser width is, helps with Responsive design
 
 Just include the jQuery library (http://jquery.com)
@@ -23,12 +25,23 @@ Then in your usual document.ready...
 
 There are only 4 options...
 
+<<<<<<< HEAD
 sizeyThingyMessage: "W: " - This is just for the start of the information bar.
 
 sizeyThingyRelative: false -This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
 
 sizeyForMobileRelative: true - If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
+=======
+messageWidth: "W: "
+- This is just for the start of the information bar.
 
-sizeyThingyLight: true - Would you like a white bar with black text or a black bar with white text, true for white bar, false for black bar
+relativePosition: false
+- This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
+
+mobileRelative: true
+- If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
+>>>>>>> General updates and demo URL added
+
+dark: true - Would you like a white bar with dark text or a dark bar with white text, false for white bar, true for dark bar
 
 That's it - happy responsive designing, resize your browser to see the value updating :)
