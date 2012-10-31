@@ -23,7 +23,8 @@ Then in your usual document.ready...
     
     });
 
-There are only 5 options...
+Options
+----
 
 message: "Browser width..." - This preceeds measurement message
 
@@ -38,6 +39,8 @@ messageWidth: "W: " - This is just for the start of the information bar.
 relativePosition: false - This is to say "I want this to sit within the flow of html, e.g. at top, not overlaying anything".
 
 mobileRelative: true - If you're using a mobile/smart phone/tablet this allows you to switch off fixed positioning just for know mobile devices.
+
+positionBottom: false - set true to position bar at the bottom of the screen.
 
 dark: true - Would you like a white bar with dark text or a dark bar with white text, false for white bar, true for dark bar
 
